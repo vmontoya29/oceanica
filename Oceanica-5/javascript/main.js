@@ -5,7 +5,7 @@ function login(){
     password = document.getElementById("Contraseña").value;
 
     if(user == "Profesor" && password == "1234"){
-        window.location = "/Profesor.html";
+        window.location = "./Profesor.html";
         alert("Bienvenido Profesor")
     }else{
         if(user == "Administrador" && password == "1234"){
